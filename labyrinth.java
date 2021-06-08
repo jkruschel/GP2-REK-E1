@@ -19,7 +19,7 @@ public class labyrinth {
 	int direction; //Die präferierte Bewegungsrichtung beim Lösen des Labyrinths.
 	
 	int tries = 0; //Zähler, wie oft die Rekursive Funktion durchlaufen wurde
-	int maxTries = 60; //Limit für wie viele Durchläufe erfolgen, bevor aufgegeben wird.
+	int maxTries = 20; //Limit für wie viele Durchläufe erfolgen, bevor aufgegeben wird.
 	
 	
 	public labyrinth() {
