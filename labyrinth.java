@@ -72,6 +72,12 @@ public class labyrinth {
 	
 	//Löst das Labyrinth und hinterlässt '*' auf dem Lösungspfad
 	public void solve() {
+		try {
+			Thread.sleep(200);
+		}
+		catch(Exception e) {
+			System.out.println("Fehler beim Warten");
+		}
 		char left = Layout[cursorY][cursorX - 1]; //Was ist links von mir?
 		char right = Layout[cursorY][cursorX + 1]; //Was ist rechts von mir?
 		char up = Layout[cursorY - 1][cursorX]; //Was ist über mir?
