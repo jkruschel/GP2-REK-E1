@@ -35,7 +35,7 @@ public class labyrinth {
 	public void buildLab() {
 		for(int i = 0;i<10;i++) { //Für jede Zeile
 			X = 0;
-			maxX = rand(4,8); //Diese Spanne ändern um schwerere oder leichtere Labyrinthe zu generieren
+			maxX = rand(4,7); //Diese Spanne ändern um schwerere oder leichtere Labyrinthe zu generieren
 			while (X<maxX) {
 				buildLine(i);
 			}
